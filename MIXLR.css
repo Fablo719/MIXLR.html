@@ -1,0 +1,459 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10%;
+    background-color: white;
+    color: antiquewhite;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #ff4f5a;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+
+.nav-links a:hover{
+    color: #ff4f5a;
+}
+
+
+.signup{
+    padding: 8px 12px;
+    background-color: #ff4f5a;
+    border-radius: 4px;
+    color: white;
+}
+
+.signup:hover{
+    background-color: #e03e49;
+}
+
+.yii{
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.yaa .yoo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+yaa h1{
+    font-size: 36px;
+}
+
+
+
+.broad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+}
+
+
+.text{
+    flex: 1 1 45%;
+    min-width: 310px;
+}
+
+
+.text h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+.text p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.btn{
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+btn:hover{
+    background-color: #c43d39;
+}
+.adeife{
+    position: relative;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+.adeife img{
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mob{
+    width: 160px;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    z-index: 2;
+}
+
+
+.note{
+    position: absolute;
+    font-size: 0.9rem;
+    color: #d9534f;
+    font-style: italic;
+}
+
+.guy{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+}
+
+
+.kilo{
+    flex: 1 1 45%;
+    min-width: 310px
+}
+
+
+.kilo h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+
+.kilo p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.meee{
+    position: relative;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+
+.meee img{
+     border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+
+.mag{
+    width: 370px;
+    position: absolute;
+    right: 80px;
+    bottom: -150px;
+    z-index: 2;
+}
+
+
+.voo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+}
+
+
+.dara{
+    flex: 1 1 45%;
+    min-width: 310px
+}
+
+
+.dara h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-top: 100px;
+    color: #222;
+}
+
+
+.dara p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ope{
+    position: relative;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+.ope img{
+      border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+
+
+.ayo{
+     width: 370px;
+    position: absolute;
+    left: 100px;
+    bottom: -150px;
+    z-index: 2;
+}
+
+
+.ave{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+}
+
+
+.like{
+     flex: 1 1 45%;
+    min-width: 310px;
+}
+
+
+.like h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-left: 400px;
+    margin-top: 140px;
+    color: #222;
+    padding: 100px -150%;
+}
+
+
+.like p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1000px;
+    margin-left: 500px;
+}
+
+
+.aba{
+    position: absolute;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+
+.aba img{
+     border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+
+
+
+.qqq{
+     width: 370px;
+    position: absolute;
+    right: 80px;
+    bottom: -300px;
+    z-index: 2;
+}
+
+
+
+
+.omah{
+     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 65px 10%;
+    flex-wrap: wrap;
+}
+
+.oya{
+    flex: 1 1 45%;
+    min-width: 310px;
+}
+
+
+.oya h1{
+     font-size: 2rem;
+    font-weight: 700px;
+    margin-top: -1000px;
+    margin-right: 650px;
+    color: #222;
+}
+
+
+
+.oya p{
+     font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-left: -650px;
+}
+
+
+
+.iii{
+    position: absolute;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+
+.iii img{
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+
+.baba{
+     width: 370px;
+    position: absolute;
+    left: 500px;
+    bottom: 700px;
+    z-index: 2;
+}
+
+
+.vvv{
+    position: relative;
+    text-align: center;
+    margin-top: -690px;
+}
+
+
+
+.jii{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 10%;
+    background-color: #fafafa;
+}
+
+
+.jii{
+    text-align: center;
+    max-width: 280px;
+}
+
+.cii img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    filter: invert(37%) sepia(94%) saturate(3982%) hue-rotate(340deg) brightness(102%) contrast(97%);
+}
+
+.cii h1{
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+
+.cii p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #666;
+    min-width: 400px;
+}
+
+.oyo{
+      display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 10%;
+    background-color: #fafafa;
+}
+
+
+.oyo{
+    text-align: center;
+    max-width: 280px;
+}
+
+
+.aha img{
+     width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-right: -1px;
+    filter: invert(37%) sepia(94%) saturate(3982%) hue-rotate(340deg) brightness(102%) contrast(97%);
+}
+
+
+.aha h2{
+     font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+
+
+.aha p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: white;
+    min-width: fit-content;
+}
